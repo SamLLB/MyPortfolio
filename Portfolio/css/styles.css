@@ -1,0 +1,446 @@
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+/* ---->>> Font sizes start <<<----- */
+html {
+  font-size: 16px; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.4em; }
+
+h3 {
+  font-size: 1.8em; }
+
+h4 {
+  font-size: 1.6em; }
+
+h5 {
+  font-size: 1.2em; }
+
+h6 {
+  font-size: 1.0em; }
+
+p {
+  font-size: 2.0em; }
+
+/* ----->>> Font sizes end <<<------ */
+body {
+  background: #fafafa;
+  color: #222;
+  font-family: "Nixie One", "courier", Serif;
+  font-size: 62.5%; }
+
+body, h1, h2, h3, h4, h5, p, ul {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: "Nixie One", "courier", Serif; }
+
+h1, h2, p {
+  margin: 0 0 25px 0; }
+
+h2, button {
+  font-family: "Nixie One", "courier", Serif; }
+
+a {
+  text-decoration: none;
+  color: #fafafa; }
+
+/* -----------------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* -----------------------------------*/
+header {
+  background-color: #022035;
+  color: #fafafa;
+  height: 100%;
+  text-align: center;
+  width: 100%; }
+
+.headerContent {
+  margin: 0 auto;
+  padding: 25px 0 0 0;
+  width: 100%; }
+
+.desktopNav {
+  margin: 0 auto;
+  width: 80%; }
+  .desktopNav h2 {
+    font-size: 2em; }
+  .desktopNav ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 75px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .desktopNav ul li {
+      box-sizing: border-box;
+      display: block;
+      padding: 0 40px;
+      text-align: center;
+      width: auto; }
+
+.mobileMenu {
+  background: #022035;
+  border-bottom: 1px solid #fafafa;
+  display: none;
+  font-size: 1.4em;
+  min-height: 40px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%; }
+
+.leadMessage {
+  display: block;
+  margin: 25px auto;
+  width: 90%;
+  padding: 10px; }
+  .leadMessage h1 {
+    display: block;
+    font-family: 'Pacifico', cursive;
+    font-size: 9.5em;
+    font-weight: lighter;
+    line-height: 1;
+    margin: 15px 30px;
+    position: relative;
+    -webkit-transition: 0.6s;
+    transition: 0.6s; }
+  .leadMessage h2 {
+    display: block;
+    font-family: 'Nixie One', cursive;
+    margin: 0 auto 25px; }
+
+/* -----------------------------------*/
+/* ------>>> PAGE STRUCTURE <<<-------*/
+/* -----------------------------------*/
+.contentHolder {
+  display: block;
+  height: auto;
+  min-height: 300px; }
+
+.wrapBox {
+  box-sizing: border-box;
+  height: auto;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 80%; }
+  .wrapBox h1 {
+    font-family: "Libre Baskerville"; }
+  .wrapBox ul {
+    padding: 0 0 0 50px;
+    font-size: 2.0em; }
+
+/* ---->>> About Me styles start <<<----- */
+#aboutMe {
+  float: left;
+  width: 66.66%; }
+  #aboutMe button {
+    float: left; }
+
+.avatar {
+  border-radius: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto 10px;
+  width: 260px; }
+
+/* ---->>> About Me styles end <<<----- */
+/* ---->>> Home and Projects styles start <<<----- */
+.projectContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin: 25px 0 0 0; }
+
+.project {
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  min-height: 250px;
+  padding: 10px;
+  width: 31%; }
+  .project:hover {
+    background-image: -webkit-linear-gradient(left, rgba(47, 117, 168, 0.4) 0%, rgba(47, 117, 168, 0.4) 100%);
+    background-image: linear-gradient(left, rgba(47, 117, 168, 0.4) 0%, rgba(47, 117, 168, 0.4) 100%); }
+
+.projectImg {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%; }
+
+.loadMore {
+  display: none; }
+
+/* ---->>> Home and Projects styles end <<<----- */
+/* ---->>> Contact styles start <<<----- */
+.contact {
+  box-sizing: border-box;
+  float: left;
+  margin: 0 0 25px 0;
+  min-height: 300px;
+  padding-right: 50px;
+  width: 50%; }
+  .contact:last-child {
+    padding-right: 0; }
+    .contact:last-child p {
+      margin: 0; }
+  .contact label {
+    font-size: 1.8em; }
+  .contact button {
+    float: left; }
+
+.socialIcons {
+  border-radius: 100%;
+  box-sizing: border-box;
+  color: #222;
+  display: inline-block;
+  font-size: 3em;
+  margin: 10px;
+  padding: 10px; }
+
+input, textarea {
+  background-color: #fafafa;
+  border: 1px solid black;
+  font-size: 1.6em;
+  box-sizing: border-box;
+  font-family: "Nixie One", "courier", Serif;
+  height: 35px;
+  margin: 0 0 15px 0;
+  padding: 0 5px;
+  resize: none;
+  width: 100%; }
+
+#messageInput {
+  height: 175px;
+  margin: 0 0 10px 0;
+  padding: 10px 5px; }
+
+.messageStatus {
+  display: none;
+  float: left;
+  margin: 25px 0 0 15px;
+  font-size: 70%;
+  line-height: 1.4; }
+
+/* -----------------------------------*/
+/* -------->>> NAVIGATION <<<---------*/
+/* -----------------------------------*/
+/* -------->>> Styles for nav underlines on hover start <<<---------*/
+.desktopNav a {
+  position: relative;
+  line-height: 75px; }
+  .desktopNav a:before {
+    background-color: #fafafa;
+    bottom: -7px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    visibility: hidden;
+    width: 100%; }
+  .desktopNav a:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    visibility: visible; }
+
+/* -------->>> Styles for nav underlines on hover end <<<---------*/
+button {
+  background: #2F75A8;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 0 0 #205275;
+  box-sizing: border-box;
+  color: #fafafa;
+  display: block;
+  font-family: "Nixie One", "courier", Serif;
+  font-size: 2em;
+  height: 60px;
+  line-height: 1;
+  margin: 25px auto 0;
+  outline: none;
+  padding: 10px 15px;
+  position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 225px; }
+  button:hover {
+    background-color: #3D99DB;
+    cursor: pointer; }
+  button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px #205275; }
+
+/* -----------------------------------*/
+/* ---------->>> FOOTER <<<-----------*/
+/* -----------------------------------*/
+footer {
+  background-color: #022035;
+  box-sizing: border-box;
+  color: #fafafa;
+  font-family: "Nixie One", "courier", Serif;
+  font-size: 1.4em;
+  height: auto;
+  padding: 25px 0; }
+  footer p {
+    float: left;
+    width: 100%; }
+
+.footerContent {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center; }
+  .footerContent > div {
+    margin: 0 auto;
+    width: 244px; }
+  .footerContent a:hover, .footerContent a:focus {
+    opacity: 0.6; }
+  .footerContent ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .footerContent ul li {
+      box-sizing: border-box;
+      list-style: none;
+      padding: 0 25px; }
+      .footerContent ul li:first-child {
+        padding-left: 0; }
+      .footerContent ul li:last-child {
+        padding-right: 0; }
+
+.footerSocial {
+  font-size: 2.5em;
+  margin-bottom: 25px; }
+
+.footerLinks {
+  margin-bottom: 25px; }
+  .footerLinks ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .footerLinks ul li > a {
+      position: relative; }
+    li .footerLinks ul:not(:last-child) {
+      border-right: 1px solid #fafafa; }
+
+/* -----------------------------------*/
+/* ---------->>> EXTRAS <<<-----------*/
+/* -----------------------------------*/
+/*Clearfix*/
+.clearFix:after {
+  clear: both;
+  content: "";
+  display: table; }
+
+/* -----------------------------------*/
+/* ---------->>> ANIMATIONS <<<-----------*/
+/* -----------------------------------*/
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+.fadeInDown {
+  -webkit-animation: fadeInDown 1s;
+          animation: fadeInDown 1s; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s 1s forwards;
+          animation: fadeIn 1s 1s forwards; }
+
+@-webkit-keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+            transform: translate3d(-2000px, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+            transform: translate3d(-2000px, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+          animation-name: fadeInLeftBig; }
+
+@-webkit-keyframes fadeOutRightBig {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+            transform: translate3d(2000px, 0, 0); } }
+
+@keyframes fadeOutRightBig {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+            transform: translate3d(2000px, 0, 0); } }
+.fadeOutRightBig {
+  -webkit-animation-name: fadeOutRightBig;
+          animation-name: fadeOutRightBig; }

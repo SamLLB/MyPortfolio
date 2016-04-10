@@ -1,0 +1,169 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Styles */
+  body {
+    font-size: 50%; }
+
+  .headerContent {
+    padding: 15px 0 0 0;
+    width: 90%; }
+
+  .logo {
+    float: none;
+    height: 60px;
+    margin: 0 auto;
+    width: 60px; }
+
+  .desktopNav {
+    display: none; }
+
+  .leadMessage {
+    margin: 25px auto;
+    width: 90%; }
+    .leadMessage h1 {
+      line-height: 1em;
+      margin: 25px auto; }
+    .leadMessage h2 {
+      margin: 0 auto;
+      text-align: center; }
+
+  .wrapBox {
+    width: 90%; }
+
+  /* ---->>> About Me styles start <<<----- */
+  #aboutMe {
+    float: none;
+    width: 100%; }
+
+  button {
+    width: 175px;
+    height: 50px; }
+
+  /* ---->>> About Me styles end <<<----- */
+  /* ---->>> Home and Projects styles start <<<----- */
+  .projectContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .project {
+    width: 100%;
+    display: none; }
+    .project:nth-child(1), .project:nth-child(2), .project:nth-child(3) {
+      display: block; }
+
+  .loadMore {
+    display: block; }
+
+  /* ---->>> Home and Projects styles end <<<----- */
+  /* ---->>> Contact styles start <<<----- */
+  .contact {
+    float: none;
+    padding: 0;
+    width: 100%; }
+
+  .socialIcons {
+    font-size: 3em; }
+
+  /* ---->>> Contact styles end <<<----- */
+  /* ---->>> Footer styles start <<<----- */
+  .footerContent {
+    width: 90%; }
+
+  /* ---->>> Footer styles end <<<----- */
+  /* Smartphones (landscape) ----------- */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (max-width: 767px) and (orientation: landscape) {
+  /* Styles */
+  #aboutMe {
+    float: left;
+    width: 66.66%; }
+
+  .projectContainer {
+    margin: 0 auto;
+    width: 80%; }
+
+  .footerLinks {
+    width: 100%; }
+    .footerLinks ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .footerLinks ul li > a {
+        position: relative; }
+      li .footerLinks ul:not(:last-child) {
+        border-right: 1px solid #fafafa; } }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Smartphones (portrait) ----------- */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (max-width: 414px) and (orientation: portrait) {
+  /* Styles */
+  .footerLinks ul {
+    display: block;
+    float: none;
+    margin: 0 auto 25px;
+    width: 66%; }
+    .footerLinks ul li {
+      float: none;
+      margin: 15px auto;
+      padding: 0;
+      text-align: center;
+      width: 100%; } }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* iPads (portrait and landscape) ----------- */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  body {
+    font-size: 55%; }
+
+  .headerContent {
+    width: 90%; }
+
+  .logo {
+    height: 65px;
+    margin: 0 auto;
+    width: 65px; }
+
+  .leadMessage {
+    margin: 25px auto;
+    width: 80%; }
+    .leadMessage h1 {
+      line-height: 1em;
+      margin: 15px auto; }
+    .leadMessage h2 {
+      margin: 25px auto;
+      text-align: center; }
+
+  .wrapBox {
+    width: 90%; } }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* iPads (landscape) ----------- */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* iPads (portrait) ----------- */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /**********
+  iPad 3
+  **********/ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Desktops and laptops ----------- */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1025px) and (max-width: 1224px) {
+  /* Styles */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1224px) {
+  /* Styles */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Large screens ----------- */ }
+@media only screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1824px) {
+  /* Styles */ }
